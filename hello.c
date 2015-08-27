@@ -1,3 +1,4 @@
 void main(){
-	while (printf("Hello world"))
+	FILE *fp = fopen("readme.txt","a");
+	while (!fprintf("fp","Hello world"))
 }
